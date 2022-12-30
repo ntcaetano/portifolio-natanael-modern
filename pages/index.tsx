@@ -17,22 +17,18 @@ export default function Home() {
 
       <Header/>
 
-      {/* Hero */}
       <section id='hero' className='snap-center'>
         <Hero/>
       </section>
 
-      {/* About */}
       <section id='about' className='snap-center'>
         <About/>
       </section>
 
-      {/* Experience */}
       <section id='experience' className='snap-center'>
         <WorkExperience/>
       </section>
 
-      {/* Skills */}
       <section id='skills' className='snap-center'>
         <Skills/>
       </section>
