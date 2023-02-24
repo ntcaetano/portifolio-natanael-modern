@@ -17,30 +17,30 @@ export default function Home() {
         <title>Portifolio Natanael</title>
       </Head>
 
-      <Header/>
+      <Header />
 
       <section id='hero' className='snap-start'>
-        <Hero/>
+        <Hero />
       </section>
 
       <section id='about' className='snap-center'>
-        <About/>
+        <About />
       </section>
 
       <section id='experience' className='snap-center'>
-        <WorkExperience/>
+        <WorkExperience />
       </section>
 
       <section id='skills' className='snap-start'>
-        <Skills/>
+        <Skills />
       </section>
 
       <section id="projects" className='snap-start'>
-        <Projects/>
+        <Projects />
       </section>
 
       <section id='contact' className='snap-start'>
-        <ContactMe/>
+        <ContactMe />
       </section>
 
     </div>
