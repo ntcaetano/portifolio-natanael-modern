@@ -12,7 +12,7 @@ export default defineType({
     },
     {
       name: "companyImage",
-      title: "company Image",
+      title: "CompanyImage",
       type: "image",
       options: {
         hotspot: true,
