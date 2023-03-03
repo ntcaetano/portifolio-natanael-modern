@@ -43,8 +43,11 @@ export interface Experience extends SanityBody {
     company: string;
     companyImage: Image;
     dateStarted: Date;
+    dateEnded: Date;
     isCurrentlyWorkingHere: booblean;
     jobTitle: string;
+    points: string[];
+    technologies: Technology[];
 }
 
 export interface Project extends SanityBody {
