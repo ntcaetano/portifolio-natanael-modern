@@ -33,7 +33,7 @@ export default function About({}: Props) {
             background
             </h4>
             <p className='text-base'>
-            Me chamo Natanael, sou um programador proativo, criativo, versátil e extrovertido. Tenho como objetivo fazer parte de um grande projeto em uma grande empresa, ser feliz e realizado profissionalmente. Trabalhei como desenvolvedor frontend, backend, autônomo e com equipe. Atualmente me especializando na ferramenta React.
+            Me chamo Natanael, sou um programador proativo, criativo, versátil e extrovertido. Tenho como objetivo fazer parte de um grande projeto empresarial, ser feliz e realizado profissionalmente. Trabalhei como desenvolvedor frontend, backend, autônomo e com equipe. Atualmente me especializando na ferramenta React.
             </p>
         </div>
     </motion.div>
