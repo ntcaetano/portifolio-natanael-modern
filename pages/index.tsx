@@ -47,9 +47,6 @@ export default function Home() {
       <Link href='#hero'>
       <footer className='sticky bootom-5 w-full cursor-pointer'>
         <div className='flex items-center justify-center'>
-          <img
-           className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
-           src="Perfil.jpg" alt="" />
         </div>
       </footer>
       </Link>
