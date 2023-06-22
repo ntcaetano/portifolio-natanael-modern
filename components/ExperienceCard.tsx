@@ -27,18 +27,18 @@ export default function ExperienceCard({ }: Props) {
                 <h4 className='text-4xl font-light'>Fullstack Júnior</h4>
                 <p className='font-bold text-2xl mt-1'>Bluecable</p>
                 <div className='flex space-x-2 my-2'>
-                    <div>
+                    
                         { ImageReact } 
-                    </div>
-                    <div>
+                    
+                    
                         { ImageTS } 
-                    </div>
-                    <div>
+                    
+                    
                         { ImageJS } 
-                    </div>
-                    <div>
+                    
+                    
                         { ImageNode } 
-                    </div>
+                    
                 </div>
                 <p className='uppercase py-5 text-gray-300'>
                     Janeiro 2022 - Novembro 2022
