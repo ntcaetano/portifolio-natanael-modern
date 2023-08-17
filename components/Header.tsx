@@ -24,7 +24,6 @@ export default function Header({}: Props) {
         }}
         className="flex flex-row items-center"
       >
-        {/* Social Icons */}
         <SocialIcon
           url="https://www.linkedin.com/in/natanael-caetano-4b8317146/"
           fgColor="gray"

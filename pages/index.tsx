@@ -10,7 +10,6 @@ import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
 import Link from "next/link";
-import { IconeSeta } from "../components/Icons"; 
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -50,11 +49,13 @@ export default function Home() {
       <Link href="#hero">
         <footer className="sticky bootom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
-            {IconeSeta}
+            <img
+              src="../public/images/seta.png"
+              className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
+            />
           </div>
         </footer>
       </Link>
-
     </div>
   );
 }
