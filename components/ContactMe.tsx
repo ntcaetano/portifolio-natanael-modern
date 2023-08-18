@@ -25,7 +25,7 @@ function ContactMe({}: Props) {
         Contato
       </h3>
 
-      <div className="flex flex-col xl:space-y-10 lg:space-y-10 space-y-4 xl:mt-20 mt-32">
+      <div className="flex flex-col xl:space-y-10 lg:space-y-10 space-y-4 xl:mt-20 lg:mt-20 mt-32">
         <h4 className="2xl:text-4xl xl:text-4xl lg:text-4xl font-semibold text-center">
           Eu tenho o que você precisa.{" "}
           <span className="decoration-[#F7AB0A]/50 underline">
@@ -49,7 +49,7 @@ function ContactMe({}: Props) {
 
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="flex flex-col space-y-2 w-fit 2xl:mt-20 xl:mt-20 lg:mt-20 2xl:mr-0 xl:mr-0 lg:mr-0 mr-2"
+        className="flex flex-col space-y-2 w-fit 2xl:mt-20 xl:mt-20 lg:mt-20 mb-20 2xl:mr-0 xl:mr-0 lg:mr-0 mr-2"
       >
         <div className="2xl:flex xl:flex lg-flex 2xl:space-x-2 xl:space-x-2 lg-space-x-2">
           <input
