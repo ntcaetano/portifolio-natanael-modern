@@ -15,7 +15,7 @@ function ContactMe({}: Props) {
   const { register, handleSubmit } = useForm<Inputs>();
 
   const onSubmit: SubmitHandler<Inputs> = (formData) => {
-    window.location.href = `mailto:natacaet@gmail?suject=${formData.subject}{formData.subject}&body=Hi, my name is ${formData.name}.
+    window.location.href = `mailto:natacaet@gmail.com?suject=${formData.subject}{formData.subject}&body=Olá, meu nome é ${formData.name}.
     ${formData.message} (${formData.email})`;
   };
 
@@ -33,17 +33,17 @@ function ContactMe({}: Props) {
           </span>
         </h4>
 
-        <div className="flex items-center space-x-5 justify-center">
+        <div className="flex lg:items-center xl:space-x-5 lg:space-x-5 space-x-1 justify-center">
           <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
           <p className="text-2x-l">+55(51)98610-2483</p>
         </div>
 
-        <div className="flex items-center space-x-5 justify-center">
+        <div className="flex lg:items-center xl:space-x-5 lg:space-x-5 space-x-1 justify-center">
           <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
           <p className="text-2x-l">natacaet@gmail.com</p>
         </div>
 
-        <div className="flex xl:items-center xl:space-x-5 justify-center">
+        <div className="flex xl:items-center lg:items-center xl:space-x-5 lg:space-x-5 justify-center">
           <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
           <p className="text-2x-l">Rua Tenente Alberto Mendes Júnior, 250</p>
         </div>
