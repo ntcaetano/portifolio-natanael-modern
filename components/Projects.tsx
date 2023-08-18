@@ -21,7 +21,7 @@ function Projects({}: Props) {
       <div className="relative w-full flex overflow-x-scroll snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'">
         {projects.map((project, i) => (
           <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
-            <div className="flex flex-row xl:-ml-0 lg:-ml-0 -ml-7 xl:mt-32 lg:mt-32 mt-60">
+            <div className="flex flex-row xl:-ml-0 lg:-ml-0 -ml-7 mt-32">
               <motion.img
                 initial={{
                   y: -300,
@@ -54,7 +54,7 @@ function Projects({}: Props) {
                 </span>{" "}            
                 Bluecable API
               </h4>   
-              <p className="text-1xl text-center md:text-left xl:w-auto lg:w-auto w-80">
+              <p className="xl:text-lg lg:text-lg text-1xl text-center md:text-left xl:w-auto lg:w-auto w-80">
                 Webservice empresarial com sistema OAuth para login e logout
                 integrado ao Google. Possuí um formulário de dados onde o
                 usuário pode registrar as informações sobre renegociações de
