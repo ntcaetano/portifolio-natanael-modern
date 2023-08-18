@@ -25,7 +25,7 @@ function Skills({ }: Props) {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
       className='flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'>
-      <h3 className='absolute top-24 uppercase tracking-[15px] text-gray-500 text-2xl'>
+      <h3 className='absolute top-24 uppercase xl:tracking-[20px] lg:tracking-[20px] tracking-[15px] text-gray-500 text-2xl'>
         Habilidades
       </h3>
 
