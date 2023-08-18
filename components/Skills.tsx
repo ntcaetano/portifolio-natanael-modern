@@ -33,7 +33,7 @@ function Skills({ }: Props) {
       Passe o mouse sobre uma habilidade para ver a minha proficiência
       </h3>
 
-      <div className='grid grid-cols-4 gap-4 absolute top-80'>
+      <div className='grid grid-cols-4 gap-4 absolute xl:top-64 top-80'>
         <Vscode />
         <React />
         <Nextjs />
