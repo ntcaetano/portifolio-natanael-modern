@@ -48,13 +48,13 @@ function Projects({}: Props) {
               />
             </div>
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
-              <h4 className="text-4xl font-semibold text-center">
+              <h4 className="xl:text-4xl lg:text-4xl text-2xl font-semibold text-center">
                 <span className="underline decoration-[#F7AB0A]/50">
                   {i + 1} of {projects.length}:
                 </span>{" "}            
                 Bluecable API
               </h4>   
-              <p className="text-lg text-center md:text-left xl:w-auto lg:w-auto w-80">
+              <p className="text-1xl text-center md:text-left xl:w-auto lg:w-auto w-80">
                 Webservice empresarial com sistema OAuth para login e logout
                 integrado ao Google. Possuí um formulário de dados onde o
                 usuário pode registrar as informações sobre renegociações de
