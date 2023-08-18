@@ -59,7 +59,7 @@ function Projects({}: Props) {
                   bgColor="transparent"
                 />
               </div>
-              <p className="xl:text-lg lg:text-lg text-1xl text-center md:text-left xl:w-auto lg:w-auto w-80">
+              <p className="xl:text-lg lg:text-lg text-1xl text-center md:text-left xl:w-auto lg:w-auto">
                 Webservice empresarial com sistema OAuth para login e logout
                 integrado ao Google. Possuí um formulário de dados onde o
                 usuário pode registrar as informações sobre renegociações de
