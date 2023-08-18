@@ -6,7 +6,7 @@ type Props = {}
 
 export default function Bluecable({}: Props) {
   return (
-    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-auto'>
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-auto'>
         <motion.img
             initial={{
                 x: -200,
@@ -22,7 +22,7 @@ export default function Bluecable({}: Props) {
             alt=""
         />
 
-        <div className='px-0 md:px-10'>
+        <div className='ml-5 px-0 md:px-10'>
             <h4 className='text-4xl font-light'>Desenvolvedor Fullstack</h4>
             <p className='font-bold text-2xl mt-1'>Bluecable</p>
             <div className='flex space-x-2 my-2'>
