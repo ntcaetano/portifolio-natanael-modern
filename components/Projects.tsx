@@ -47,7 +47,7 @@ function Projects({}: Props) {
                 alt=""
               />
             </div>
-            <div className="space-y-10 px-0 md:px-10 max-w-6xl">
+            <div className="xl:space-y-10 lg:space-y-10 space-y-5 px-0 md:px-10 max-w-6xl">
               <h4 className="xl:text-4xl lg:text-4xl text-2xl font-semibold text-center">
                 <span className="underline decoration-[#F7AB0A]/50">
                   {i + 1} of {projects.length}:
