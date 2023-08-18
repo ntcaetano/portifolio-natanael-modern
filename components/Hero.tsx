@@ -8,7 +8,7 @@ import BackgroundCircles from './BackgroundCircles'
 type Props = {}
 
 export default function Hero({ }: Props) {
-    const [text, count] = useTypewriter({
+    const [text] = useTypewriter({
         words: [
             "Olá, meu nome é Natanael",
             "Cara-que-ama-Café.tsx",
