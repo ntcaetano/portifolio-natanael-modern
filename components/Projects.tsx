@@ -1,11 +1,11 @@
 /* eslint-disable react/jsx-key */
 import { motion } from "framer-motion";
 import React from "react";
+import { SocialIcon } from "react-social-icons";
 
 type Props = {};
 
 function Projects({}: Props) {
-
   const projects = [1];
   return (
     <motion.div
@@ -48,12 +48,17 @@ function Projects({}: Props) {
               />
             </div>
             <div className="xl:space-y-10 lg:space-y-10 space-y-5 px-0 md:px-10 max-w-6xl">
-              <h4 className="xl:text-4xl lg:text-4xl text-2xl font-semibold text-center">
+              <div className="xl:text-4xl lg:text-4xl text-2xl font-semibold text-center">
                 <span className="underline decoration-[#F7AB0A]/50">
                   {i + 1} of {projects.length}:
-                </span>{" "}            
+                </span>{" "}
                 Bluecable API
-              </h4>   
+                <SocialIcon
+                  url="https://github.com/ntcaetano/"
+                  fgColor="gray"
+                  bgColor="transparent"
+                />
+              </div>
               <p className="xl:text-lg lg:text-lg text-1xl text-center md:text-left xl:w-auto lg:w-auto w-80">
                 Webservice empresarial com sistema OAuth para login e logout
                 integrado ao Google. Possuí um formulário de dados onde o
@@ -65,7 +70,6 @@ function Projects({}: Props) {
                 Google Cloud. Também está versionada pelo Github e implementada
                 pela plataforma Vercel.
               </p>
-              
             </div>
           </div>
         ))}
