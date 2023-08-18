@@ -49,7 +49,7 @@ function ContactMe({}: Props) {
 
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="flex flex-col space-y-2 w-fit 2xl:mt-20 xl:mt-20 lg:mt-20 mb-20 2xl:mr-0 xl:mr-0 lg:mr-0 mr-2"
+        className="flex flex-col space-y-2 w-fit 2xl:mt-20 xl:mt-20 lg:mt-20 2xl:mb-0 xl:mb-0 lg:mb-0 mb-20 2xl:mr-0 xl:mr-0 lg:mr-0 mr-2"
       >
         <div className="2xl:flex xl:flex lg-flex 2xl:space-x-2 xl:space-x-2 lg-space-x-2">
           <input
