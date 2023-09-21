@@ -36,23 +36,6 @@ export default function Header({}: Props) {
           bgColor="transparent"
         />
 
-        <SocialIcon
-          url="https://www.facebook.com/natacaet"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-
-        <SocialIcon
-          url="https://www.instagram.com/ntcaetano/"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-
-        <SocialIcon
-          url="https://twitter.com/NatanRazer"
-          fgColor="gray"
-          bgColor="transparent"
-        />
       </motion.div>
 
       <Link href="#contact">

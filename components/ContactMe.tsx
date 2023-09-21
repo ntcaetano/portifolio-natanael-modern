@@ -33,23 +33,23 @@ function ContactMe({}: Props) {
           </span>
         </h4>
 
-        <div className="flex lg:items-center xl:space-x-5 lg:space-x-5 space-x-1 justify-center">
-          <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-          <p className="text-2x-l">+55(51)98610-2483</p>
+        <div className="flex lg:items-center xl:space-x-5 lg:space-x-5 space-x-1.5 justify-center ">
+          <PhoneIcon className="text-[#F7AB0A] h-5 w-5 2xl:xl:h-7 2xl:w-7 xl:h-7 xl:w-7 md:h-7 md:w-7 animate-pulse" />
+          <p className="text-xs xl:text-base lg:text-base md:text-base">+55(51)98610-2483</p>
         
-          <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-          <p className="text-2x-l">natacaet@gmail.com</p>
+          <EnvelopeIcon className="text-[#F7AB0A] h-5 w-5 2xl:xl:h-7 2xl:w-7 xl:h-7 xl:w-7 md:h-7 md:w-7 animate-pulse" />
+          <p className="text-xs xl:text-base lg:text-base md:text-base">natacaet@gmail.com</p>
         </div>
 
         <div className="flex xl:items-center lg:items-center xl:space-x-5 lg:space-x-5 justify-center">
-          <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-          <p className="text-2x-l">Rua Tenente Alberto Mendes Júnior, 250</p>
+          <MapPinIcon className="text-[#F7AB0A] h-5 w-5 2xl:xl:h-7 2xl:w-7 xl:h-7 xl:w-7 md:h-7 md:w-7 animate-pulse" />
+          <p className="text-xs xl:text-base lg:text-base md:text-base">Rua Tenente Alberto Mendes Júnior, 250</p>
         </div>
       </div>
 
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="flex flex-col space-y-2 w-fit 2xl:mt-20 xl:mt-20 lg:mt-20 2xl:mb-0 xl:mb-0 lg:mb-0 mb-20 2xl:mr-0 xl:mr-0 lg:mr-0 mr-2"
+        className="flex flex-col space-y-2 w-fit 2xl:mt-20 xl:mt-20 lg:mt-20 2xl:mr-0 xl:mr-0 lg:mr-0 mr-2"
       >
         <div className="2xl:flex xl:flex lg-flex 2xl:space-x-2 xl:space-x-2 lg-space-x-2">
           <input

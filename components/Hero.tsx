@@ -21,15 +21,15 @@ export default function Hero({ }: Props) {
         <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
             <BackgroundCircles />
             <img
-                className='relative rounded-full h-44 w- mx-auto object-cover'
+                className='relative rounded-full h-36 w-36 xl:h-44 xl:w-44 lg:h-44 lg:w-44 md:h-44 md:w-44 mx-auto object-cover'
                 src="./images/Perfil.jpg"
             />
             <div className='z-20'>
                 <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[15px]'>
                     Engenheiro de Software
                 </h2>
-                <h1 className='text-5xl lg:text-6xl font-semibold px-10'>
-                    <span className='mr-3'>{text}</span>
+                <h1 className='text-4xl xl:text-6xl lg:text-6xl font-semibold px-10'>
+                    <span className='text-lg xl:text-4xl lg:text-4xl md:text-4xl mr-3'>{text}</span>
                     <Cursor cursorColor="#F7AB04" />
                 </h1>
                 <div className='pt-5'>

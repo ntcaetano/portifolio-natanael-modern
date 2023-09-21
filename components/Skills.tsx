@@ -29,11 +29,11 @@ function Skills({ }: Props) {
         Habilidades
       </h3>
 
-      <h3 className='absolute top-40 uppercase tracking-[3px] text-gray-500 text-sm'>
+      <h3 className='absolute top-40 uppercase tracking-[4px] text-gray-500 text-xs xl:text-sm lg:text-sm md:text-sm'>
       Passe o mouse sobre uma habilidade para ver a minha proficiência
       </h3>
 
-      <div className='grid grid-cols-4 xl:gap-4 lg:gap-4 gap-2 absolute xl:top-64 lg:top-64 top-72'>
+      <div className='grid grid-cols-4 gap-3 xl:gap-4 lg:gap-4 absolute xl:top-64 lg:top-64 top-72'>
         <Vscode />
         <React />
         <Nextjs />

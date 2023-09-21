@@ -22,39 +22,39 @@ export default function Bluecable({}: Props) {
             alt=""
         />
 
-        <div className='ml-5 px-0 md:px-10'>
-            <h4 className='text-4xl font-light'>Desenvolvedor Fullstack</h4>
-            <p className='font-bold text-2xl mt-1'>Bluecable</p>
+        <div className='px-10'>
+            <h4 className='text-xl xl:text-4xl lg:text-4xl md:text-4xl  font-light'>Desenvolvedor Fullstack</h4>
+            <p className='font-bold text-xl xl:text-2xl lg:text-2xl md:text-2xl mt-1'>Bluecable</p>
             <div className='flex space-x-2 my-2'>
                 <img
-                className='h-10 w-10 rounded-full' 
+                className='h-8 w-8 xl:h-10 xl:w-10 lg:h-10 lg:w-10 md:h-10 md:w-10 rounded-full' 
                 src="./images/react-icon.png" 
                 alt="" />
                 <img
-                className='h-10 w-10 rounded-full' 
+                className='h-8 w-8 xl:h-10 xl:w-10 lg:h-10 lg:w-10 md:h-10 md:w-10 rounded-full' 
                 src="./images/next-js.png" 
                 alt="" />
                 <img
-                className='h-10 w-10 rounded-full' 
+                className='h-8 w-8 xl:h-10 xl:w-10 lg:h-10 lg:w-10 md:h-10 md:w-10 rounded-full' 
                 src="./images/nodejs.png" 
                 alt="" />
                 <img
-                className='h-10 w-10 rounded-full' 
+                className='h-8 w-8 xl:h-10 xl:w-10 lg:h-10 lg:w-10 md:h-10 md:w-10 rounded-full' 
                 src="./images/typescript.png" 
                 alt="" />
                 <img
-                className='h-10 w-10 rounded-full' 
+                className='h-8 w-8 xl:h-10 xl:w-10 lg:h-10 lg:w-10 md:h-10 md:w-10 rounded-full' 
                 src="./images/js.png" 
                 alt="" />
                 <img
-                className='h-10 w-10 rounded-full' 
+                className='h-8 w-8 xl:h-10 xl:w-10 lg:h-10 lg:w-10 md:h-10 md:w-10 rounded-full' 
                 src="./images/tailwind.png" 
                 alt="" />
             </div>
-            <p className='uppercase py-5 text-gray-300'>
+            <p className='uppercase py-3 xl:py-5 lg:py-5 md:xl:py-5 text-gray-300'>
                 Jan de 2022 - Nov de 2022
             </p>
-            <ul className='list-disc space-y-4 ml-5 text-lg'>
+            <ul className='list-disc space-y-2 xl:space-y-4 lg:space-y-4 md:space-y-4 ml-5 text-sm xl:text-lg lg:text-lg md:text-lg'>
                 <li>Desenvolvimento de sistema CRUD</li>
                 <li>Implementação pela Vercel e Firebase</li>
                 <li>Validação de links pelo Google Cloud</li>

@@ -12,7 +12,7 @@ function WorkExperience({}: Props) {
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     transition={{ duration: 1.5 }} 
-    className='h-screen flex relative snap-center overflow-hidden flex-col text-lft md:flex-row max-w-5xl px-2 pt-20 pb-10 justify-evenly mx-auto items-center'
+    className='h-screen flex relative snap-center overflow-hidden flex-col  md:flex-row max-w-5xl pt-20 pb-10 justify-evenly mx-auto items-center'
     >
         <h3 className='absolute top-24 uppercase xl:tracking-[20px] lg:tracking-[20px] tracking-[15px] text-gray-500 text-2xl'>
             Experiencia
