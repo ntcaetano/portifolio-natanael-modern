@@ -21,7 +21,7 @@ function Projects({}: Props) {
       <div className="relative w-full flex overflow-x-scroll snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'">
         {projects.map((project, i) => (
           <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center md:p-44 h-screen ml-10">
-            <div className="flex flex-row mt-32">
+            <div className="flex flex-row mt-14">
               <motion.img
                 initial={{
                   y: -300,
