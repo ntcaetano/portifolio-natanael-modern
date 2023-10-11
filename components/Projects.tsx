@@ -50,7 +50,7 @@ function Projects({}: Props) {
             <div className="xl:space-y-10 lg:space-y-10 space-y-2 md:px-10 max-w-6xl">
               <div className="xl:text-4xl lg:text-4xl md:text-4xl text-lg font-semibold text-center">
                 <span className="underline decoration-[#F7AB0A]/50">
-                  {i + 1} of {projects.length}:
+                  {i + 1} de {projects.length}:
                 </span>{" "}
                 Bluecable API
                 <SocialIcon
