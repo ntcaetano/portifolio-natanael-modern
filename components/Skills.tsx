@@ -7,7 +7,6 @@ import Ts from './Skill/Ts'
 import Js from './Skill/Js'
 import Css from './Skill/Css'
 import Tcss from './Skill/Tcss'
-import Php from './Skill/Php'
 import Java from './Skill/Java'
 import Sql from './Skill/Sql'
 import Jquery from './Skill/Jquery'
@@ -15,6 +14,7 @@ import Python from './Skill/Python'
 import Bootstrap from './Skill/Bootstrap'
 import Mysql from './Skill/Mysql'
 import Html from './Skill/Html'
+import Vue from './Skill/Vue'
 
 type Props = {}
 
@@ -36,6 +36,7 @@ function Skills({ }: Props) {
       <div className='grid grid-cols-4 gap-3 xl:gap-4 lg:gap-4 absolute xl:top-64 lg:top-64 top-72'>
         <Vscode />
         <React />
+        <Vue />
         <Nextjs />
         <Nodejs />
         <Ts />
@@ -43,7 +44,6 @@ function Skills({ }: Props) {
         <Css />
         <Html />
         <Tcss />
-        <Php />
         <Java />
         <Python />
         <Sql />

@@ -33,7 +33,7 @@ export default function About({}: Props) {
             resumo sobre mim:
             </h4>
             <p className='text-xs xl:text-base lg:text-base md:text-base'>
-            Me chamo Natanael &#128515;, sou um programador proativo, criativo, versátil e extrovertido. Gosto de estudar, ler livros de fantasia &#128218; e jogos de estratégia pois sou muito competitivo (hehe). Tenho como objetivo profissional fazer parte de um grande projeto empresarial e como pessoal viajar pelo mundo &#127758;, conhecer novas culturas e histórias. Trabalhei como desenvolvedor Front-end, Back-end, autônomo e com equipe. Atualmente, me especializando na ferramenta React &#9883;.
+            Me chamo Natanael &#128515;, sou um programador proativo, criativo, versátil e extrovertido. Gosto de estudar, ler livros de fantasia &#128218; e jogos de estratégia pois sou muito competitivo (hehe). Tenho como objetivo profissional fazer parte de um grande projeto empresarial e como pessoal viajar pelo mundo &#127758;, conhecer novas culturas e histórias. Trabalhei como desenvolvedor Front-end, Back-end, autônomo e com equipe. Atualmente, me especializando na ferramenta Vue.js &#128187;.
             </p>
         </div>
     </motion.div>
