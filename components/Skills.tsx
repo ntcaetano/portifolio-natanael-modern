@@ -11,7 +11,7 @@ import Java from './Skill/Java'
 import Sql from './Skill/Sql'
 import Jquery from './Skill/Jquery'
 import Python from './Skill/Python'
-import Bootstrap from './Skill/Bootstrap'
+import Angular from './Skill/Angular'
 import Mysql from './Skill/Mysql'
 import Html from './Skill/Html'
 import Vue from './Skill/Vue'
@@ -48,7 +48,7 @@ function Skills({ }: Props) {
         <Python />
         <Sql />
         <Jquery />
-        <Bootstrap />
+        <Angular />
         <Mysql />
       </div>
     </motion.div>
