@@ -23,7 +23,7 @@ export default function Bluecable({}: Props) {
         />
 
         <div className='px-10'>
-            <h4 className='text-xl xl:text-4xl lg:text-4xl md:text-4xl  font-light'>Desenvolvedor Fullstack</h4>
+            <h4 className='text-xl xl:text-4xl lg:text-4xl md:text-4xl  font-light'>Desenvolvedor de Software</h4>
             <p className='font-bold text-xl xl:text-2xl lg:text-2xl md:text-2xl mt-1'>Bluecable</p>
             <div className='flex space-x-2 my-2'>
                 <img
